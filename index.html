@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8">  
+    <meta name="author" content="Nikita Cserepko">
+    <meta name="description" content="This page contains all the things and elements I am learning about HTML.">
+    <title>My first web page </title>
+    <link rel="icon" href="html5-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css" type="text/css">
+</head>
+
+<body>
+    <header>
+        <h1>The Plan</h1>
+    
+<!--so, nav,ul,li,a href and so on, composed with section, together create a reference table, so we can navigate at our page-->
+        <hr>    
+        <p>Table of contents:</p>           
+        <nav aria-label="primary-navigation">
+            <ul>
+                <li>
+                    <a href="#html">Learning HTML</a>
+                </li>
+                <li>
+                    <a href="#Latin">Phrases in Latin</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+        <hr>
+    <main>
+        <article id="html">
+        
+            <h2>I am ready to learn <abbr title="HyperText Markup Language"> 
+                                    <a href="https://html.com/"> HTML </a>     <!--<a> is anchor=link, this is absolute link-->
+                                    </abbr></h2>                <!-- dots with hidden explanation-->
+            <p>This is essentially my very <strong>first Web Page.</strong></p> <!--'stong'is a formatting tag making words bold -->
+            <section>
+                <h3><mark>The Icons</mark></h3>
+                <img src="orthdx-icons/pic1.png" alt="Jesus preaching" title="Jesus preachin" width="340" height="500" loading="lazy">    
+            </section>             
+                <h3>My Daily Schedule!</h3>
+                <p>Let me explain my learning path:</p>
+                <ol>
+                <li>&nbsp;&nbsp;&nbsp;Watch Youtube videos.</li>
+                <li>&nbsp;&nbsp;&nbsp;Apply the gained knowledge on practice.</li>
+                <li>&nbsp;&nbsp;&nbsp;Uga-Buga satisfied.</li>
+                </ol>
+        </article>   <!--ol+li:1)we put s the paragrpah first sentence into praragraph tags;2)initiate the ordered list by ol;    
+                    3)what needds to be listed with numbers as order has opening and closing tags for each line;-->
+                    <!--the start and end position li tags dictates the boudarie for bullet point or order number-->
+            <table>
+                <tr>
+                    <th>Time</th>
+                    <th>Activity</th>
+                </tr>
+                    <td>
+                        <time datetime="08:00">8am</time>-<time datetime="12:00">12pm</time>
+                    </td>
+                    <td>Do the work</td>
+                </tr>
+                <tr>
+                    <td>
+                        <time datetime="12:00">12pm</time>-<time datetime="13:00">1pm</time>
+                    </td>
+                    <td>Lunch-Lunch-Lunch!!!</td>
+                </tr>
+                <tr>
+                    <td>
+                        <time datetime="13:00">1pm</time>-<time datetime="17:00">5pm</time>
+                    </td>
+                    <td>The rest of doings</td>
+                </tr>
+            </table>
+        <hr>
+
+        <section id="Latin">
+
+            <h2>I am also planning to learn robotics!</h2>
+            <p>It will include <em>assebly of the drones and coding.</em></p>
+            <img src="orthdx-icons/pic2.png" alt="The Saint" title="The Saint" width="400" height="400" loading="lazy">
+
+            <h3>Something else!</h3>
+            <p>Let me explain further:</p>
+            <ul>
+            <li><p>The Latin Phrases of the day</p></li>
+            <li>Inter Regum<br>
+                Militas Gardoni<br>
+                Viva Lacro<br>
+            </li>
+            </ul>
+            <section>
+                <h4>A little question</h4>
+                <aside>
+                    <details>
+                        <summary>What is the meaning of this phrase: <em>"Cogito ergo sum"</em></summary>
+                        <p><mark>"I think, therefore I am"</mark></p>
+                    </details>
+                </aside>
+            </section>     <!--aside,details, summary,p creates a sentence with displayable answer(hid and unhide by clicking)-->
+            <p>-or multiple bullet points-</p>
+            <ul>
+            <li>Deo confidimus</li>
+            <li>De integro</li>
+            <li>De mortuis nil nisi bonum</li>
+        
+            <!--the </ul> and <ul> could be removed before and after 'or multiple ullet points', just like the phrase itself-->
+            </ul>
+            <!--ul+li:1)unordered list just makes bullet points(either for each line or for one (first) line),good for definitions -->
+
+            <h3> Interpetation of these phrases are:</h3>
+            <p>Check them out</p>
+            <figure>
+                <img src="orthdx-icons/pic3.png" alt="Nikita Bessogon" title="Nikita Bessogon" width="350" height="440" loading="lazy">
+                <figcaption>
+                    The Orthodox saint and martyr - Nikita Bessogon
+                </figcaption>
+            </figure>
+            <dl>                                      <!--loading=lazy : loading of image happens only when we see it-->
+                <dt>Deo confidimus</dt>
+                <dd>In God we trust</dd>
+
+                <dt>De integro</dt>
+                <dd>Again</dd>
+
+                <dt>De mortuis nil nisi bonum</dt>
+                <dd>Speak well of the dead, or not at all</dd>
+            </dl>
+        </section>
+    </main>
+    <!--dl is description list, dt is description term(what we want to explain), dd is descritption detail(explanation itself)-->
+     https://validator.w3.org/nu/#file
+    <hr>
+    <p>
+        &lt;&lt;&lt;&lt; &copy;<a href="cool.html"> Bessogon </a> &gt;&gt;&gt;&gt;<!--This creates <<<< (c) Bessogon + link>>>>-->
+    </p>
+        <a href="#">Back to the Top</a>
+</body> 
+</html>

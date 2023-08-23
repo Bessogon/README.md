@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+<meta charset="UTF-8">
+<meta name="author" content="SHALOM">
+<meta name="description" content="Ye, the beginning of the beginning, autobuography it seems">
+<title>About Me</title> <!--tab name -->
+<link rel="icon" href="html5-logo.png" type="image/x-icon">
+<link rel="stylesheet" href="main.css" type="text/css">
+</head>
+
+<body>
+    <h1>Greeintgs!I am Bessogon.</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto reiciendis, at veniam placeat illo magnam voluptate, fuga, quas id perferendis alias exercitationem voluptas ab vero illum nisi hic amet corporis?
+        </p>
+
+    <hr>
+    <ul>
+        <li>
+            Download <a href="html5-logo.png" download>HTML Icon</a> for free 
+        </li>
+        <li>
+            Open <a href="https://militaryland.net/maps/deployment-map/" target="_blank">Deployment Map</a> in a new tab.
+            <!--href contains the actual link to which we point, target=_blank opens a link in a new tab points-->
+        </li>
+    </ul>
+
+    <h2>Table Practice</h2>
+    <table>
+        <caption><mark>My Daily Schedule</mark></caption>
+        <thead>
+            <tr>
+            <td>&nbsp;</td>
+            <th scope="col">Time</th>
+            <th scope="col">Activity</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="row">Morning</th>
+                <td>
+                    <time datetime="06:30">6:30</time>-<time datetime="08:00">8:00</time>
+                </td>
+                <td>
+                     Morning Routine 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <time datetime="08:00">8:00</time>-<time datetime="09:00">9:00</time>
+                </td>
+                <td>
+                     Self-Study 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <time datetime="09:00">9:00</time>-<time datetime="11:00">11:00</time>
+                </td>
+                <td> 
+                    1st Class
+                </td>
+            </tr>
+            <tr>
+                <th >Noon</th>
+                <td>
+                    <time datetime="11:00">11:00</time>-<time datetime="13:00">13:00</time>
+                </td>
+                <td> 
+                    Lunch, Self Study
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">Afternoon</th>
+                <td>
+                    <time datetime="13:00">13:00</time>-<time datetime="17:00">17:00</time>
+                </td>
+                <td>
+                    2nd Class, 3rd Class
+                </td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="row">Evening</th>
+                <td>
+                    <time datetime="17:00">17:00</time>-<time datetime="19:00">19:00</time>
+                </td>
+                <td>
+                    Dinner, Self Study
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <time datetime="19:00">19:00</time>-<time datetime="21:00">21:00</time>
+                </td>
+                <td>
+                    Gymnastics
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <time datetime="21:00">21:00</time>-<time datetime="23:30">23:30</time>
+                </td>
+                <td>Evening Routine</td>
+            </tr>
+            <tr>
+                <th scope="row">Night</th>
+                <td>
+                    <time datetime="23:30">23:30</time>-<time datetime="06:30">6:30</time>
+                </td>
+                <td>
+                    Sleep
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3"> That is 1 of the 2 types of a day per work week</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <article id="Contact">
+        <h2>Do not contact us</h2>
+        <p>Do not text us, unless really want to </p>
+
+        <!--<form action="http://127.0.0.1:5500/#" method="get">-->
+        <form action="https://httpbin.org/get" method="get">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <p>
+                    <label for="firstname">First Name:</label>
+                    <input type="text" name="FirstName" id="firstname"  placeholder="e.g. Oleg" autocomplete="on" required="on" autofocus>
+                </p>
+                <p>
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" name="LastName" id="lastname"  placeholder="e.g. Kuchak " autocomplete="on" required="on" autofocus>
+                </p>
+                <p>
+                    <label for="Gmail"> Gmail: </label>
+                    <input type="text" name="gmail" id="Gmail"  placeholder="e.g. okuchak83@gmail.com " autocomplete="on" required="on" autofocus>
+                </p>
+                <p>
+                    <label for=password">Password:</label>
+                    <input type="password" name="password" id="Password"  placeholder="e.g. Kozlyk39@751 " autocomplete="on" required="on" autofocus>
+                </p>
+                <p>
+                    <label for="phone">Phone:</label>
+                    <input type="tel" name="phone" id="phone"  placeholder="e.g. 31626436848 " autocomplete="on" required="on" autofocus pattern="[0-9]{10}">
+                </p>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Comment</legend>
+                <label for="message">Type your comment here:</label>
+                <br>
+                <textarea id="message" name="Message" cols="70" rows="10" placeholder="Type your comment here"></textarea>
+            </fieldset>
+            <br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </article>
+    <hr>
+    &lt;&lt;&lt; &copy; <a href="index.html">Bessogon</a> &gt;&gt;&gt;
+    <p>
+        <a href="/"></a>
+    </p>
+</body>
+
+</html>
